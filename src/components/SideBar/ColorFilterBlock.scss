@@ -1,0 +1,17 @@
+.colorFilterBlock{
+  position: relative;
+  display: block;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: white;
+  margin: 10px;
+  padding: 10px;
+
+  .colorFilterBlockItems{
+    width:100%;
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex:0 1 auto;
+  }
+}

@@ -1,0 +1,12 @@
+.shop_shared_layout .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  background-color: white;
+}
+.shop_shared_layout .title img {
+  width: 40px;
+}
+
+/*# sourceMappingURL=ShopSharedLayout.css.map */

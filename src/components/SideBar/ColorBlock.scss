@@ -1,0 +1,40 @@
+.colorBlock{
+ width: 50%;
+ //flex: 0 0 50%;
+ display: flex;
+ position: relative;
+
+ .colorItem{
+  width: 100px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+
+  .colorItemFilterImg{
+   border: lightgrey solid 1px;
+
+   margin: 5px;
+   height: 24px;
+   border-radius: 50%;
+   &:hover{
+    cursor: pointer;
+   }
+  }
+  .checkedColor{
+   outline:lightgrey solid 1px;
+   outline-offset: 3px;
+  }
+  .colorItemName{
+   margin-left: 5px;
+   display: block;
+  }
+ }
+
+
+}
+
+

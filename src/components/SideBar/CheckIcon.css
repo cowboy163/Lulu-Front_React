@@ -1,0 +1,11 @@
+.checkBoxHover {
+  color: white;
+  margin: 0;
+  outline-offset: -4px;
+  outline: 1px solid black;
+}
+.checkBoxHover:hover {
+  color: grey;
+}
+
+/*# sourceMappingURL=CheckIcon.css.map */

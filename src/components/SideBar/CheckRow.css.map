@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAS;EACP,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;;AAErB,eAAe;EACb,WAAW,EAAE,GAAG;EAChB,OAAO,EAAE,KAAK",
+"sources": ["CheckRow.scss"],
+"names": [],
+"file": "CheckRow.css"
+}

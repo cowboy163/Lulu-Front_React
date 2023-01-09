@@ -1,0 +1,33 @@
+.colorBlock {
+  width: 50%;
+  display: flex;
+  position: relative;
+}
+.colorBlock .colorItem {
+  width: 100px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.colorBlock .colorItem .colorItemFilterImg {
+  border: lightgrey solid 1px;
+  margin: 5px;
+  height: 24px;
+  border-radius: 50%;
+}
+.colorBlock .colorItem .colorItemFilterImg:hover {
+  cursor: pointer;
+}
+.colorBlock .colorItem .checkedColor {
+  outline: lightgrey solid 1px;
+  outline-offset: 3px;
+}
+.colorBlock .colorItem .colorItemName {
+  margin-left: 5px;
+  display: block;
+}
+
+/*# sourceMappingURL=ColorBlock.css.map */

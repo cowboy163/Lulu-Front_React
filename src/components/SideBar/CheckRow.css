@@ -1,0 +1,11 @@
+.checkRow {
+  display: flex;
+  align-items: center;
+}
+
+.filterItemName {
+  margin-left: 5px;
+  display: block;
+}
+
+/*# sourceMappingURL=CheckRow.css.map */

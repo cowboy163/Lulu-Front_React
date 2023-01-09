@@ -1,0 +1,28 @@
+.testSideBar {
+  width: 20%;
+  max-width: 320px;
+  min-width: 280px;
+  padding: 10px;
+  background: white;
+  position: relative;
+}
+
+.filterTitle {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.filterTitleShownBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  position: relative;
+  left: 10%;
+  width: 80%;
+}
+
+/*# sourceMappingURL=SideBarGlobal.css.map */

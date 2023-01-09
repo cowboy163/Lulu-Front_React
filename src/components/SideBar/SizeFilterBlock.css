@@ -1,0 +1,16 @@
+.sizeFilterBlock {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: white;
+  margin: 10px;
+  padding: 10px;
+}
+.sizeFilterBlock .sizeFilterBlockItems {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/*# sourceMappingURL=SizeFilterBlock.css.map */

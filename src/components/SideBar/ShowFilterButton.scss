@@ -1,0 +1,22 @@
+.showCrossButton1{
+  position:absolute;
+  animation:rotation1 0.3s normal forwards;
+}
+@keyframes rotation1{
+  from{transform:rotate(0deg);
+  }
+  to{transform:rotate(90deg)
+  ;
+  }
+}
+.showCrossButton2{
+  position:absolute;
+  animation:rotation2 0.3s normal forwards;
+}
+@keyframes rotation2{
+  from{transform:rotate(90deg);
+  }
+  to{transform:rotate(0deg)
+  ;
+  }
+}
