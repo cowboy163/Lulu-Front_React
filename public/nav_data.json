@@ -1,0 +1,586 @@
+[
+  {
+    "item": "WOMEN",
+    "url": "#",
+    "contents": [
+      {
+        "title": "",
+        "nav": [
+          {
+            "name": "What's New",
+            "url": "./whats-new/women"
+          },
+          {
+            "name": "Bestsellers",
+            "url": "#"
+          },
+          {
+            "name": "Plus Size Clothes",
+            "url": "#"
+          },
+          {
+            "name": "Fleece Shop",
+            "url": "#"
+          },
+          {
+            "name": "Align Shop",
+            "url": "#"
+          },
+          {
+            "name": "Loungeware",
+            "url": "#"
+          },
+          {
+            "name": "Winter Clothes Shop",
+            "url": "#"
+          },
+          {
+            "name": "lululemon lab",
+            "url": "#"
+          },
+          {
+            "name": "We Made Too Much",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "title": "WOMEN'S CLOTHES",
+        "nav": [
+          {
+            "name": "Leggings",
+            "url": "#"
+          },
+          {
+            "name": "Coats & Jackets",
+            "url": "#"
+          },
+          {
+            "name": "Dresses",
+            "url": "#"
+          },
+          {
+            "name": "Hoodies & Sweatshirts",
+            "url": "#"
+          },
+          {
+            "name": "Joggers",
+            "url": "#"
+          },
+          {
+            "name": "Pants",
+            "url": "#"
+          },
+          {
+            "name": "Shirts",
+            "url": "#"
+          },
+          {
+            "name": "Shoes",
+            "url": "#"
+          },
+          {
+            "name": "Shorts",
+            "url": "#"
+          },
+          {
+            "name": "Skirts",
+            "url": "#"
+          },
+          {
+            "name": "Socks",
+            "url": "#"
+          },
+          {
+            "name": "Sports Bras",
+            "url": "#"
+          },
+          {
+            "name": "Sweaters",
+            "url": "#"
+          },
+          {
+            "name": "Swimsuits",
+            "url": "#"
+          },
+          {
+            "name": "Tank Tops",
+            "url": "#"
+          },
+          {
+            "name": "Underwear",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "title": "ACCESSORIES",
+        "nav": [
+          {
+            "name": "Bags",
+            "url": "#"
+          },
+          {
+            "name": "Equipment",
+            "url": "#"
+          },
+          {
+            "name": "Gloves & Mittens",
+            "url": "#"
+          },
+          {
+            "name": "Hair Accessories",
+            "url": "#"
+          },
+          {
+            "name": "Hats",
+            "url": "#"
+          },
+          {
+            "name": "Scarves & Wraps",
+            "url": "#"
+          },
+          {
+            "name": "Water Bottles",
+            "url": "#"
+          },
+          {
+            "name": "Yoga Mats",
+            "url": "#"
+          }
+        ]
+      }
+    ],
+    "activity": {
+      "name": "ACTIVITY",
+      "contents": [
+        {
+          "item": "Casual",
+          "url": "#"
+        },
+        {
+          "item": "Hiking",
+          "url": "#"
+        },
+        {
+          "item": "Yoga",
+          "url": "#"
+        },
+        {
+          "item": "Running",
+          "url": "#"
+        },
+        {
+          "item": "Workout",
+          "url": "#"
+        },
+        {
+          "item": "Tennis",
+          "url": "#"
+        }
+      ]
+    },
+    "recommend": {
+      "image_url": "/uploads/nav1.jpg",
+      "title": "What strong feels like.",
+      "intro": "Grounded, secure, dynamic. Lock in and lift off in the new strongfeel training shoe.",
+      "store": "Shop Shoes",
+      "ulr": "#"
+    }
+  },
+  {
+    "item": "MEN",
+    "url": "#",
+    "contents": [
+      {
+        "title": "",
+        "nav": [
+          {
+            "name": "What's New",
+            "url": "./whats-new/men"
+          },
+          {
+            "name": "Bestsellers",
+            "url": "#"
+          },
+          {
+            "name": "ABC Pants Shop",
+            "url": "#"
+          },
+          {
+            "name": "Base Layers",
+            "url": "#"
+          },
+          {
+            "name": "Business Casual Clothes",
+            "url": "#"
+          },
+          {
+            "name": "Loungewear",
+            "url": "#"
+          },
+          {
+            "name": "Winter Clothes Shop",
+            "url": "#"
+          },
+          {
+            "name": "lululemon lab",
+            "url": "#"
+          },
+          {
+            "name": "We Made Too Much",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "title": "MEN'S CLOTHES",
+        "nav": [
+          {
+            "name": "Joggers",
+            "url": "#"
+          },
+          {
+            "name": "Button Down Shirts",
+            "url": "#"
+          },
+          {
+            "name": "Coats & Jackets",
+            "url": "#"
+          },
+          {
+            "name": "Hoodies & Sweatshirts",
+            "url": "#"
+          },
+          {
+            "name": "Pants",
+            "url": "#"
+          },
+          {
+            "name": "Polo Shirts",
+            "url": "#"
+          },
+          {
+            "name": "Shirts",
+            "url": "#"
+          },
+          {
+            "name": "Shoes",
+            "url": "#"
+          },
+          {
+            "name": "Shorts",
+            "url": "#"
+          },
+          {
+            "name": "Socks",
+            "url": "#"
+          },
+          {
+            "name": "Sweaters",
+            "url": "#"
+          },
+          {
+            "name": "Swim Trunks",
+            "url": "#"
+          },
+          {
+            "name": "Tank Tops",
+            "url": "#"
+          },
+          {
+            "name": "Trousers",
+            "url": "#"
+          },
+          {
+            "name": "T-Shirts",
+            "url": "#"
+          },
+          {
+            "name": "Underwear",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "title": "ACCESSORIES",
+        "nav": [
+          {
+            "name": "Bags",
+            "url": "#"
+          },
+          {
+            "name": "Equipment",
+            "url": "#"
+          },
+          {
+            "name": "Gloves & Mittens",
+            "url": "#"
+          },
+          {
+            "name": "Hair Accessories",
+            "url": "#"
+          },
+          {
+            "name": "Hats",
+            "url": "#"
+          },
+          {
+            "name": "Water Bottles",
+            "url": "#"
+          },
+          {
+            "name": "Yoga Mats",
+            "url": "#"
+          }
+        ]
+      }
+    ],
+    "activity": {
+      "name": "ACTIVITY",
+      "contents": [
+        {
+          "item": "Running",
+          "url": "#"
+        },
+        {
+          "item": "Golf",
+          "url": "#"
+        },
+        {
+          "item": "Hiking",
+          "url": "#"
+        },
+        {
+          "item": "Workout",
+          "url": "#"
+        },
+        {
+          "item": "Casual",
+          "url": "#"
+        },
+        {
+          "item": "Yoga",
+          "url": "#"
+        }
+      ]
+    },
+    "recommend": {
+      "image_url": "/uploads/nav2.jpg",
+      "title": "lululemon Membership makes it easier.",
+      "intro": "Join-for free-to get early access to product drops, even easier returns, select lululemon Studio content, and more. We've got you.",
+      "store": "Experience Membership",
+      "ulr": "#"
+    }
+  },
+  {
+    "item": "ACCESSORIES",
+    "url": "#",
+    "contents": [
+      {
+        "title": "",
+        "nav": [
+          {
+            "name": "What's New",
+            "url": "#"
+          },
+          {
+            "name": "Bestsellers",
+            "url": "#"
+          },
+          {
+            "name": "Fleece Accessories",
+            "url": "#"
+          },
+          {
+            "name": "Women's Socks",
+            "url": "#"
+          },
+          {
+            "name": "Men's Socks",
+            "url": "#"
+          },
+          {
+            "name": "Mini Bags",
+            "url": "#"
+          },
+          {
+            "name": "Travel Accessories",
+            "url": "#"
+          },
+          {
+            "name": "We Made Too Much",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "title": "ACCESSORIES",
+        "nav": [
+          {
+            "name": "Backpacks",
+            "url": "#"
+          },
+          {
+            "name": "Bags",
+            "url": "#"
+          },
+          {
+            "name": "Beanies",
+            "url": "#"
+          },
+          {
+            "name": "Belt Bags",
+            "url": "#"
+          },
+          {
+            "name": "Crossbody Bags",
+            "url": "#"
+          },
+          {
+            "name": "Equipment",
+            "url": "#"
+          },
+          {
+            "name": "Gloves & Mittens",
+            "url": "#"
+          },
+          {
+            "name": "Hair Accessories",
+            "url": "#"
+          },
+          {
+            "name": "Hats",
+            "url": "#"
+          },
+          {
+            "name": "Keychains",
+            "url": "#"
+          },
+          {
+            "name": "Scarves & Wraps",
+            "url": "#"
+          },
+          {
+            "name": "Wallets & Pouches",
+            "url": "#"
+          },
+          {
+            "name": "Water Bottles",
+            "url": "#"
+          },
+          {
+            "name": "Yoga Mats",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "title": "SELFCARE",
+        "nav": [
+          {
+            "name": "Shop All Selfcare",
+            "url": "#"
+          },
+          {
+            "name": "Learn More",
+            "url": "#"
+          }
+        ]
+      }
+    ],
+    "activity": {
+      "name": "ACTIVITY",
+      "contents": [
+        {
+          "item": "Yoga",
+          "url": "#"
+        },
+        {
+          "item": "Running",
+          "url": "#"
+        },
+        {
+          "item": "Hiking",
+          "url": "#"
+        },
+        {
+          "item": "Workout",
+          "url": "#"
+        },
+        {
+          "item": "Tennis",
+          "url": "#"
+        },
+        {
+          "item": "Casual",
+          "url": "#"
+        }
+      ]
+    },
+    "recommend": {
+      "image_url": "/uploads/nav3.jpg",
+      "title": "The ultimate fitness portal.",
+      "intro": "lululemon Studio has it all: world-class studios and trainers, unlimited access to 10,000+ workouts, and membership benefits.",
+      "store": "Explore lululemon Studio",
+      "ulr": "#"
+    }
+  },
+  {
+    "item": "COMMUNITY",
+    "url": "#",
+    "contents": [
+      {
+        "title": "TEAM CANADA",
+        "nav": [
+          {
+            "name": "Team Canada Partnership",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "title": "SWEATLIFE",
+        "nav": [
+          {
+            "name": "At Home Workouts",
+            "url": "#"
+          },
+          {
+            "name": "Run Training Plan",
+            "url": "#"
+          },
+          {
+            "name": "Mindfulness Tools",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "title": "IMPACT",
+        "nav": [
+          {
+            "name": "Diversity And Inclusion",
+            "url": "#"
+          }
+        ]
+      }
+    ],
+    "activity": null,
+    "recommend": null
+  },
+  {
+    "item": "STUDIO",
+    "url": "#",
+    "contents": null,
+    "activity": null,
+    "recommend": null
+  },
+  {
+    "item": "SHOES",
+    "url": "#",
+    "contents": null,
+    "activity": null,
+    "recommend": null
+  }
+]
