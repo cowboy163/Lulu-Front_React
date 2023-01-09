@@ -1,0 +1,38 @@
+.upperNav {
+  background-color: var(--dark-bg-color);
+  position: sticky;
+  //z-index: 2;
+  width: 100%;
+
+  .upperNavMask {
+    position: fixed;
+    background-color: #000;
+    opacity: 0.5;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: 1;
+  }
+  ul {
+
+    li {
+      .link {
+        display: flex;
+      }
+      a {
+        display: block;
+        color:var(--dark-font-color);
+        margin-left: 12px;
+        font-family: "Calibre","sans-serif";
+        img{
+          margin-left: 20px;
+          margin-right: 12px;
+          vertical-align: text-bottom;
+        }
+      }
+
+    }
+  }
+}
+

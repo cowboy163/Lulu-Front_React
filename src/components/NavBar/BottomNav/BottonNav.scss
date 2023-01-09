@@ -1,0 +1,23 @@
+.bottomNav {
+  position: absolute;
+  z-index: 4;
+  margin-top: 116px;
+  width: 100%;
+  background-color: var(--light-bg-color);
+  font-family: var(--font-family);
+  font-size: 17px;
+  overflow: hidden;
+  //background-color: pink;
+  .navCard {
+    overflow: hidden;
+    transition: height ease-in-out 0.3s;
+    //background-color: yellow;
+    .upperCard {
+      display: flex;
+      //background-color: orange;
+      .navCard_detail {
+        display: flex;
+      }
+    }
+  }
+}

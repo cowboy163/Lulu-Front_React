@@ -1,0 +1,49 @@
+.underlineDec::after {
+  content: "";
+  display: block;
+  background-color: #d31334;
+  width: 2rem;
+  height: 0.3rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.7rem;
+}
+
+.membershipIntroComponent {
+  padding-left: 25%;
+  font-size: 1.125rem;
+  line-height: 1.2;
+}
+.membershipIntroComponent .discover {
+  padding-bottom: 2rem;
+}
+.membershipIntroComponent .discover .discoverTitle {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+.membershipIntroComponent .membershipBenefits .benefitsTitle {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+.membershipIntroComponent .membershipBenefits li {
+  line-height: 2;
+}
+.membershipIntroComponent .membershipBenefits li svg {
+  vertical-align: middle;
+}
+.membershipIntroComponent .membershipBenefits li span {
+  margin-left: 1rem;
+}
+.membershipIntroComponent .experienceMembership {
+  text-decoration: underline;
+  text-decoration-color: #d5d5d5;
+  text-decoration-thickness: 0.0625rem;
+  text-underline-offset: 0.375rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.membershipIntroComponent .experienceMembership:hover {
+  text-decoration-color: #d31334;
+}
+
+/*# sourceMappingURL=MembershipIntro.css.map */

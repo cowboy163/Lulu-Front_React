@@ -1,0 +1,88 @@
+.signInAccountComponent {
+  padding: 3rem 0;
+  //background-color: yellow;
+
+  .signInMain {
+    box-sizing: border-box;
+    padding: 0 6rem;
+    border-left: 1px solid #d5d5d5;
+
+    .signInTitle {
+      font-size: 1.5rem;
+      line-height: 1.1666666667;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 1.125rem;
+      margin-bottom: .375rem;
+      margin-top: 0.5rem;
+    }
+
+    input {
+      box-sizing: border-box;
+      border: .0625rem solid #000;
+      border-radius: .25rem;
+      font-size: 1.125rem;
+      height: 3.25rem;
+      padding: .875rem 1rem;
+      width: 80%;
+    }
+
+    .warning {
+      color: #d22030;
+      font-size: .9375rem;
+      width: 80%;
+    }
+
+    .forgot {
+      text-decoration: underline;
+      text-decoration-color: #d5d5d5;
+      text-decoration-thickness: .0625rem;
+      text-underline-offset: .375rem;
+      cursor: pointer;
+      padding-bottom: .25rem;
+
+      &:hover {
+        text-decoration-color: #d31334;
+      }
+    }
+
+    .signIn {
+      //background-color: #bfbfbf;
+      border-color: #bfbfbf;
+      //cursor: not-allowed;
+      margin-top: .9375rem;
+      letter-spacing: .075rem;
+      text-transform: uppercase;
+      font-size: 1rem;
+      font-weight: 600;
+      box-sizing: border-box;
+      width: 80%;
+      color: #fff;
+      border-radius: .25rem;
+      padding: 1rem;
+    }
+
+    .createAccount {
+      cursor: pointer;
+      font-size: 1.5rem;
+      font-weight: 600;
+      text-decoration: underline;
+      text-decoration-thickness: 0.1rem;
+      text-underline-offset: 0.5rem;
+      margin-top: 1rem;
+
+      &::before {
+        content: '';
+        display: block;
+        width: 80%;
+        height: 1px;
+        background-color: #d5d5d5;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+}

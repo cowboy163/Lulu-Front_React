@@ -1,0 +1,52 @@
+.navCard_content {
+  overflow: hidden;
+  padding-top: 50px;
+}
+.navCard_content .title h1 {
+  font-weight: 600;
+  font-size: 17px;
+  display: inline-block;
+  height: 40px;
+  letter-spacing: 1px;
+  color: var(--dark-font-color);
+}
+.navCard_content .title::after {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-left: 10px;
+  background: url("../../../../../public/images/arrow.svg") no-repeat center center/cover;
+  filter: drop-shadow(0 1000px red);
+  transform: translateY(-997px);
+  transition: transform ease-in-out 0.3s;
+}
+.navCard_content .title:hover::after {
+  transform: translate(8px, -997px);
+}
+.navCard_content .navCard_content_navs {
+  position: relative;
+  display: grid;
+}
+.navCard_content .navCard_content_navs .line {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  width: 1px;
+  height: calc(100% - 19px);
+  background-color: gray;
+}
+.navCard_content .navCard_content_navs li {
+  box-sizing: border-box;
+  height: 40px;
+}
+.navCard_content .navCard_content_navs li .link {
+  color: var(--dark-font-color);
+  display: inline-block;
+  height: 30px;
+}
+.navCard_content .navCard_content_navs .title {
+  background-color: pink;
+}
+
+/*# sourceMappingURL=NavCard.css.map */

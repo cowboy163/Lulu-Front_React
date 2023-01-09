@@ -1,0 +1,54 @@
+.searchBar {
+  position: relative;
+  z-index: 5;
+}
+.searchBar input {
+  height: 50px;
+  width: 260px;
+  border: none;
+  outline: none;
+  background-color: var(--dark-bg-color);
+  border-radius: 5px;
+  padding-left: 45px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.searchBar input:hover {
+  outline: 1px solid black;
+}
+.searchBar input:hover::placeholder {
+  color: var(--dark-font-color);
+}
+.searchBar input:focus {
+  background-color: var(--light-bg-color);
+  z-index: 5;
+}
+.searchBar::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("../../../../../public/images/search.svg") center center/cover;
+  width: 17px;
+  height: 17px;
+}
+.searchBar .closeButton {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("../../../../../public/images/closeButton.svg") center center/cover;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.searchBarBottom {
+  position: relative;
+  z-index: 4;
+}
+
+/*# sourceMappingURL=Search.css.map */

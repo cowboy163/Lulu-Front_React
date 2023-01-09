@@ -1,0 +1,49 @@
+.navBar_recommend {
+  //background-color: skyblue;
+  overflow: hidden;
+  .navBar_recommend__contents {
+    display: block;
+    //background-color: red;
+    margin-top: 50px;
+    color: var(--dark-font-color);
+    //width: 300px;
+    img {
+      //width: 340px;
+      width: 100%;
+      border-radius: 10px;
+    }
+    .text {
+      //background-color: pink;
+      padding-right: 50px;
+      h1 {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 1px;
+        margin: 10px 0;
+      }
+      i {
+        font-style: normal;
+        line-height: 40px;
+        &::after {
+          content: '';
+          display: inline-block;
+          width: 17px;
+          height: 17px;
+          margin-left: 10px;
+          //background-color: yellow;
+          background: url("../../../../../public/images/arrow.svg") no-repeat center center / cover;
+          //position: absolute;
+          vertical-align: middle;
+          filter: drop-shadow(0 1000px red);
+          transform: translateY(-1002px);
+          transition: transform ease-in-out 0.3s;
+        }
+        &:hover::after {
+          transform:translate(8px,-1002px);
+        }
+      }
+    }
+
+  }
+}

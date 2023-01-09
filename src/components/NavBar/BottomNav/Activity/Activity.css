@@ -1,0 +1,54 @@
+.bottomNav__activity {
+  background-color: var(--dark-bg-color);
+  overflow: hidden;
+}
+.bottomNav__activity .activity__contents {
+  display: flex;
+  justify-content: space-between;
+}
+.bottomNav__activity .activity__contents .title {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--light-font-color);
+  line-height: 70px;
+  width: 230px;
+  border-right: 2px solid gray;
+}
+.bottomNav__activity .activity__contents .activity__detail {
+  display: flex;
+  justify-content: space-around;
+  line-height: 70px;
+  width: 728px;
+}
+.bottomNav__activity .activity__contents .activity__detail .link {
+  color: var(--dark-font-color);
+  display: inline-block;
+  height: 30px;
+}
+.bottomNav__activity .activity__contents .activity__nav__link {
+  display: block;
+  width: 380px;
+}
+.bottomNav__activity .activity__contents .activity__nav__link .activity__nav {
+  line-height: 70px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--dark-font-color);
+  float: right;
+}
+.bottomNav__activity .activity__contents .activity__nav__link .activity__nav::after {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-left: 10px;
+  background: url("../../../../../public/images/arrow.svg") no-repeat center center/cover;
+  filter: drop-shadow(0 1000px red);
+  transform: translateY(-998px);
+  transition: transform ease-in-out 0.3s;
+}
+.bottomNav__activity .activity__contents .activity__nav__link .activity__nav:hover::after {
+  transform: translate(8px, -998px);
+}
+
+/*# sourceMappingURL=Activity.css.map */

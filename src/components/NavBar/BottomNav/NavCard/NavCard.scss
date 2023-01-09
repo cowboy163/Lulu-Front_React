@@ -1,0 +1,62 @@
+.navCard_content {
+  //position: relative;
+  //background-color: green;
+  overflow: hidden;
+
+  padding-top: 50px;
+  .title {
+    h1 {
+      font-weight: 600;
+      font-size: 17px;
+      display: inline-block;
+      height: 40px;
+      letter-spacing: 1px;
+      color: var(--dark-font-color)
+    }
+    &::after {
+      content: '';
+      display: inline-block;
+      width: 17px;
+      height: 17px;
+      margin-left: 10px;
+      //background-color: yellow;
+      background: url("../../../../../public/images/arrow.svg") no-repeat center center / cover;
+      //position: absolute;
+      filter: drop-shadow(0 1000px red);
+      transform: translateY(-997px);
+      transition: transform ease-in-out 0.3s;
+    }
+    &:hover::after {
+      transform:translate(8px,-997px);
+    }
+  }
+
+  .navCard_content_navs {
+    position: relative;
+    display: grid;
+
+    //background-color: skyblue;
+    .line {
+      position: absolute;
+      right: 30px;
+      top: 10px;
+      width: 1px;
+      height: calc(100% - 19px);
+      background-color: gray;
+    }
+    li{
+      //border: 1px solid red;
+      box-sizing: border-box;
+      height: 40px;
+      .link {
+        color: var(--dark-font-color);
+        //background-color: yellow;
+        display: inline-block;
+        height: 30px;
+      }
+    }
+    .title {
+      background-color: pink;
+    }
+  }
+}

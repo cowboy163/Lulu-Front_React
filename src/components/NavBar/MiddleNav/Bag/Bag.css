@@ -1,0 +1,84 @@
+.navBar__my_bag {
+  position: absolute;
+  width: 375px;
+  right: 0;
+  top: 80px;
+  line-height: 1.5;
+  font-family: var(--font-family);
+  background-color: white;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+.navBar__my_bag .title {
+  border-bottom: 0.0625rem solid #d5d5d5;
+  padding: 1rem 1.25rem 0.75rem;
+}
+.navBar__my_bag .title h1 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.67;
+}
+.navBar__my_bag .items_in_bag {
+  padding: 20px 20px 0;
+  border-bottom: 0.0625rem solid #d5d5d5;
+  max-height: 500px;
+  overflow: auto;
+}
+.navBar__my_bag .items_in_bag .content {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.navBar__my_bag .items_in_bag .content .picture {
+  margin-right: 10px;
+}
+.navBar__my_bag .items_in_bag .content .picture img {
+  width: 71px;
+  border-radius: 0.25rem;
+}
+.navBar__my_bag .items_in_bag .content .info {
+  width: 100%;
+}
+.navBar__my_bag .items_in_bag .content .info .line1 {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+.navBar__my_bag .items_in_bag .content .info .line1 .right {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.navBar__my_bag .items_in_bag .content .info .line4 {
+  display: flex;
+  justify-content: space-between;
+}
+.navBar__my_bag .checkOut {
+  padding: 20px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.navBar__my_bag .checkOut .line1 {
+  display: flex;
+  justify-content: space-between;
+}
+.navBar__my_bag .checkOut .line1 .left span {
+  font-weight: 400;
+}
+.navBar__my_bag .checkOut .line2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.navBar__my_bag .checkOut .view_bag {
+  background-color: #d11335;
+  margin-bottom: 20px;
+  padding: 15px;
+  cursor: pointer;
+  color: white;
+  border-radius: 0.25rem;
+}
+.navBar__my_bag .checkOut .view_bag:hover {
+  background-color: #af112d;
+}
+
+/*# sourceMappingURL=Bag.css.map */

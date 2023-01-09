@@ -1,0 +1,64 @@
+// common style
+.underlineDec {
+  &::after {
+    content: '';
+    display: block;
+    background-color: #d31334;
+    width: 2rem;
+    height: 0.3rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.7rem;
+  }
+}
+
+// main
+.membershipIntroComponent {
+  padding-left: 25%;
+  font-size: 1.125rem;
+  line-height: 1.2;
+
+  .discover {
+    padding-bottom: 2rem;
+
+    .discoverTitle {
+      font-size: 1.5rem;
+      line-height: 1.2;
+      font-weight: 600;
+    }
+
+  }
+
+  .membershipBenefits {
+
+    .benefitsTitle {
+      font-size: 1.5rem;
+      line-height: 1.2;
+    }
+
+    li {
+      line-height: 2;
+
+      svg {
+        vertical-align: middle;
+      }
+
+      span {
+        margin-left: 1rem;
+      }
+    }
+
+  }
+
+  .experienceMembership {
+    text-decoration: underline;
+    text-decoration-color: #d5d5d5;
+    text-decoration-thickness: .0625rem;
+    text-underline-offset: .375rem;
+    cursor: pointer;
+    margin-top: 1rem;
+
+    &:hover {
+      text-decoration-color: #d31334;
+    }
+  }
+}

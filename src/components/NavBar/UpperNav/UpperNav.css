@@ -1,0 +1,31 @@
+.upperNav {
+  background-color: var(--dark-bg-color);
+  position: sticky;
+  width: 100%;
+}
+.upperNav .upperNavMask {
+  position: fixed;
+  background-color: #000;
+  opacity: 0.5;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.upperNav ul li .link {
+  display: flex;
+}
+.upperNav ul li a {
+  display: block;
+  color: var(--dark-font-color);
+  margin-left: 12px;
+  font-family: "Calibre", "sans-serif";
+}
+.upperNav ul li a img {
+  margin-left: 20px;
+  margin-right: 12px;
+  vertical-align: text-bottom;
+}
+
+/*# sourceMappingURL=UpperNav.css.map */

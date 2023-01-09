@@ -1,0 +1,40 @@
+.middleNav {
+  background-color: var(--light-bg-color);
+  z-index: 4;
+  margin-top: 36px;
+  width: 100%;
+  //background-color: skyblue;
+  // temp line
+  //border-bottom: 2px solid red;
+
+  .middleNav__ul {
+    z-index: 2;
+    .logo {
+      display: flex;
+    }
+    li {
+      .middleNav__navList {
+        display: block;
+        font-family: "Calibre", "sans-serif";
+        font-weight: 600;
+        font-size: 17px;
+        color: var(--dark-font-color);
+        margin-left: 30px;
+        height: 50px;
+        //transform: translateY(5px);
+        letter-spacing: 1px;
+        //background-color: orange;
+      }
+      &:first-of-type {
+        margin-left: 60px;
+      }
+    }
+  }
+  .rightPart {
+    position: relative;
+    //background-color: skyblue;
+    .bag {
+
+    }
+  }
+}

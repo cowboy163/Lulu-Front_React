@@ -1,0 +1,59 @@
+.bottomNav__activity {
+  background-color: var(--dark-bg-color);
+  overflow: hidden;
+  .activity__contents {
+    display: flex;
+    justify-content: space-between;
+    .title {
+      font-weight: 600;
+      letter-spacing: 1px;
+      color: var(--light-font-color);
+      line-height: 70px;
+      width: 230px;
+      border-right: 2px solid gray;
+      //background-color: orange;
+    }
+    .activity__detail {
+      display: flex;
+      justify-content: space-around;
+      line-height: 70px;
+      width: 728px;
+      //padding-right: 130px;
+      .link {
+        color: var(--dark-font-color);
+        display: inline-block;
+        height: 30px;
+        //background-color: orange;
+      }
+    }
+    .activity__nav__link {
+      display: block;
+      width: 380px;
+      //background-color: orange;
+      .activity__nav {
+        line-height: 70px;
+        //width: 182px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: var(--dark-font-color);
+        float: right;
+        &::after {
+          content: '';
+          display: inline-block;
+          width: 17px;
+          height: 17px;
+          margin-left: 10px;
+          //background-color: yellow;
+          background: url("../../../../../public/images/arrow.svg") no-repeat center center / cover;
+          //position: absolute;
+          filter: drop-shadow(0 1000px red);
+          transform: translateY(-998px);
+          transition: transform ease-in-out 0.3s;
+        }
+        &:hover::after {
+          transform:translate(8px,-998px);
+        }
+      }
+    }
+  }
+}

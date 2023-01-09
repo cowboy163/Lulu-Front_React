@@ -1,0 +1,30 @@
+.middleNav {
+  background-color: var(--light-bg-color);
+  z-index: 4;
+  margin-top: 36px;
+  width: 100%;
+}
+.middleNav .middleNav__ul {
+  z-index: 2;
+}
+.middleNav .middleNav__ul .logo {
+  display: flex;
+}
+.middleNav .middleNav__ul li .middleNav__navList {
+  display: block;
+  font-family: "Calibre", "sans-serif";
+  font-weight: 600;
+  font-size: 17px;
+  color: var(--dark-font-color);
+  margin-left: 30px;
+  height: 50px;
+  letter-spacing: 1px;
+}
+.middleNav .middleNav__ul li:first-of-type {
+  margin-left: 60px;
+}
+.middleNav .rightPart {
+  position: relative;
+}
+
+/*# sourceMappingURL=MiddleNav.css.map */
