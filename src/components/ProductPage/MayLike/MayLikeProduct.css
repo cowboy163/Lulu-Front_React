@@ -1,0 +1,11 @@
+.MLContainer .card_image {
+  width: 100px;
+  height: 165px; }
+  .MLContainer .card_image img.MLproductImg {
+    width: 100px;
+    height: auto; }
+  .MLContainer .card_image .MLProduct .MLproductDetail {
+    color: black;
+    overflow: hidden; }
+
+/*# sourceMappingURL=MayLikeProduct.css.map */

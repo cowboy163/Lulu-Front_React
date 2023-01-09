@@ -1,0 +1,67 @@
+.listContainer {
+  font-family: "Calibre", "sans-serif";
+  padding-left: 40px;
+  width: 100%;
+}
+.listContainer .topArea {
+  width: 100%;
+  height: 140px;
+}
+.listContainer .topArea .top {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid gray;
+}
+.listContainer .topArea .top .left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.listContainer .topArea .top .left span {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+.listContainer .topArea .top .left span:first-child {
+  border-bottom: 4px solid red;
+  font-weight: 600;
+}
+.listContainer .topArea .top .left span:nth-child(2) {
+  margin-left: 60px;
+}
+.listContainer .topArea .top .right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+.listContainer .topArea .top .right span {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.listContainer .topArea .bottom {
+  width: 100%;
+  padding: 20px 0;
+}
+.listContainer .topArea .bottom_content_detail {
+  display: inline-block;
+  background-color: var(--light-bg-color);
+  padding: 8px 16px;
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+.listContainer .topArea .bottom_content_detail .closeButton {
+  margin-left: 10px;
+}
+.listContainer .productList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=ProductList.css.map */

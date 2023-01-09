@@ -1,0 +1,15 @@
+body {
+  font-family: var(--font-family);
+}
+body h1.YouMayLike {
+  margin: 5px 5px;
+  width: 110px;
+  font-family: var(--font-family);
+  font-size: 20px;
+}
+body .YMLproductList {
+  width: 100px;
+  height: 600px;
+}
+
+/*# sourceMappingURL=MayLike.css.map */

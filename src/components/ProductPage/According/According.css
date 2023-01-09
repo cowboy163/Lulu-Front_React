@@ -1,0 +1,33 @@
+.AccordionSection {
+  font-family: var(--font-family);
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+}
+.AccordionSection .AccordionLogo {
+  width: 40px;
+  margin-right: 5px;
+}
+.AccordionSection .AccordionTitle {
+  margin: 10px;
+  font-family: var(--font-family);
+  font-size: 40px;
+  font-weight: bolder;
+}
+.AccordionSection .text {
+  display: flex;
+  flex-direction: row;
+}
+.AccordionSection .text .AccordionDetailContent {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+  align-content: center;
+  margin: 10px;
+  width: 400px;
+  height: 80px;
+  background-color: #fafafa;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=According.css.map */

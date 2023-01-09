@@ -1,0 +1,29 @@
+.reviewFilterBar{
+  width: 20%;
+  padding: 15px;
+  background-color: #f9f9f9;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  .filterReviewsTitle{
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+ .reviewInputSearch{
+   height: 40px;
+   background-color: white;
+
+   //box-shadow: 0 0 3px black;
+   border: 1px solid #bbb;
+   border-radius: 5px;
+ }
+.reviewStarFilter{
+  background-color:white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+  .sizeFilterHr2{
+    width: 80%;
+
+  }
+}

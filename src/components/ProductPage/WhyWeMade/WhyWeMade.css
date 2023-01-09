@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.WhyWeMade {
+  font-family: var(--font-family);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+.WhyWeMade .WhyLeft {
+  margin: 50px 50px;
+  justify-content: center;
+}
+.WhyWeMade .WhyLeft h1 {
+  font-weight: bolder;
+  width: 500px;
+  height: 300px;
+  font-size: 100px;
+}
+.WhyWeMade .WhyLeft ::after {
+  color: rgb(210, 32, 48);
+  content: "—";
+  display: block;
+  font-size: 2.5rem;
+  line-height: 1.875rem;
+  width: 1.5rem;
+}
+.WhyWeMade .WhyLeft h3 {
+  font-weight: normal;
+}
+.WhyWeMade .WhyRight {
+  width: 75%;
+  display: flex;
+}
+.WhyWeMade .WhyRight img {
+  border-radius: 5px;
+  width: 400px;
+  margin: 0px 20px;
+  height: 500px;
+}
+
+/*# sourceMappingURL=WhyWeMade.css.map */

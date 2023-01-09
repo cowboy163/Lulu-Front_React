@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,wBAAY;EAEV,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,yCAAiB;IACf,KAAK,EAAE,KAAK;IACZ,MAAM,EAAE,IAAI;EAIZ,oDAAiB;IACf,KAAK,EAAE,KAAK;IACZ,QAAQ,EAAE,MAAM",
+"sources": ["MayLikeProduct.scss"],
+"names": [],
+"file": "MayLikeProduct.css"
+}

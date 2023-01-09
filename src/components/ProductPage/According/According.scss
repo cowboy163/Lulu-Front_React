@@ -1,0 +1,36 @@
+.AccordionSection{
+  font-family: var(--font-family);
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  .AccordionLogo{
+    width: 40px;
+    margin-right:5px
+  }
+  .AccordionTitle {
+    margin: 10px;
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: bolder;
+  }
+.text {
+  display: flex;
+  flex-direction: row;
+
+  .AccordionDetailContent {
+    display: flex;
+    //flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 18px;
+    align-content: center;
+    margin: 10px;
+    width: 400px;
+    height: 80px;
+    background-color: #fafafa;
+    border-radius: 5px;
+
+  }
+}
+
+
+}

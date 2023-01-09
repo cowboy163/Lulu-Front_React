@@ -1,0 +1,18 @@
+body {
+  font-family: var(--font-family);
+  //display: flex;
+  //width: 110px;
+  //height: 500px;
+  h1.YouMayLike {
+    margin: 5px 5px;
+    width: 110px;
+    font-family: var(--font-family);
+    font-size: 20px;
+  }
+  .YMLproductList{
+    width: 100px;
+    height: 600px;
+    //border: `1px solid red;
+    //overflow: hiden;
+  }
+}
