@@ -1,0 +1,23 @@
+.itemColor {
+  box-sizing: border-box;
+}
+.itemColor .allColors {
+  display: flex;
+  flex-wrap: wrap;
+}
+.itemColor .allColors li {
+  padding: 10px;
+}
+.itemColor .allColors li img {
+  border-radius: 50%;
+  width: 2rem;
+  cursor: pointer;
+}
+.itemColor .allColors li img:hover {
+  box-shadow: 0 0 0 0.09375rem #d5d5d5, 0 0 0 0.25rem #fff, 0 0 0 0.34375rem gray;
+}
+.itemColor .allColors li img.active {
+  box-shadow: 0 0 0 0.09375rem #d5d5d5, 0 0 0 0.25rem #fff, 0 0 0 0.34375rem #000;
+}
+
+/*# sourceMappingURL=ItemColor.css.map */

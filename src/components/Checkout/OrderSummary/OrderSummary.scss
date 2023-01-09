@@ -1,0 +1,75 @@
+.checkout__orderSummary {
+  //background-color: green;
+  font-size: 1.0625rem;
+
+  .orderSummary__title {
+    font-size: 1.875rem;
+    line-height: 1.0666666667;
+    font-weight: 600;
+    padding-bottom: 1rem;
+  }
+
+  .orderSummary__toggle {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: .0625rem solid #d5d5d5;
+    cursor: pointer;
+    font-size: 1.1875rem;
+
+    .itemCount {
+
+      .cartIcon {
+        vertical-align: text-bottom;
+        margin-right: 0.5rem;
+      }
+
+      .toggleIcon {
+        margin-left: 0.5rem;
+        vertical-align: middle;
+        //transform: rotateX(180deg);
+      }
+    }
+
+    .totalPrice {
+      font-weight: 500;
+
+    }
+  }
+
+  .bagItems {
+    border-bottom: .0625rem solid #d5d5d5;
+    overflow-y: scroll;
+    max-height: 400rem;
+  }
+
+  .subtotal {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .shipping {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+  }
+
+  .tax {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: .0625rem solid #d5d5d5;
+  }
+
+  .orderTotal {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1875rem;
+    font-weight: 500;
+    line-height: 1.26;
+    padding: 1rem 0;
+  }
+
+}

@@ -1,0 +1,31 @@
+.editItemCarousel {
+  width: 100%;
+  position: relative;
+}
+.editItemCarousel__image {
+  width: 100%;
+}
+.editItemCarousel__buttons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.editItemCarousel__buttons .button {
+  padding: 1.5rem 1.3rem;
+  border-radius: 0.25rem;
+  background-color: white;
+  cursor: pointer;
+}
+.editItemCarousel__buttons .prev {
+  transform: rotate(90deg);
+}
+.editItemCarousel__buttons .next {
+  transform: rotate(-90deg);
+}
+
+/*# sourceMappingURL=EditItemCarousel.css.map */

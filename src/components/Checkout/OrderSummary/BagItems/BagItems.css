@@ -1,0 +1,28 @@
+.orderSummary__bagItems .orderSummary__bagItem {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.orderSummary__bagItems .orderSummary__bagItem img {
+  width: 71px;
+}
+.orderSummary__bagItems .orderSummary__bagItem .itemInfo {
+  width: 100%;
+  padding-left: 0.8rem;
+}
+.orderSummary__bagItems .orderSummary__bagItem .itemInfo li {
+  padding-bottom: 0.1rem;
+}
+.orderSummary__bagItems .orderSummary__bagItem .itemInfo li:last-child {
+  padding-bottom: 0;
+}
+.orderSummary__bagItems .orderSummary__bagItem .itemInfo .itemName {
+  font-weight: 600;
+  line-height: 1.25rem;
+}
+.orderSummary__bagItems .orderSummary__bagItem .itemInfo .lastLine {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=BagItems.css.map */

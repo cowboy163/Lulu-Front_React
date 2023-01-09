@@ -1,0 +1,25 @@
+.orderSummary__bagItems {
+  .orderSummary__bagItem {
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    .itemInfo {
+      width: 100%;
+      padding-left: 0.8rem;
+      li {
+        padding-bottom: 0.1rem;
+        &:last-child {
+          padding-bottom: 0;
+        }
+      }
+      .itemName {
+        font-weight: 600;
+        line-height: 1.25rem;
+      }
+      .lastLine {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}

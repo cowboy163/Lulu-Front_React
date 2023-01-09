@@ -1,0 +1,67 @@
+.footerContainer {
+  font-family: Calibre;
+  width: 100%;
+  height: fit-content;
+  margin: 24px auto 0;
+  padding: 0 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  bottom: 0px;
+}
+.footerContainer .upperContainer {
+  display: flex;
+  flex-direction: column;
+}
+.footerContainer .upperContainer .footerRow1, .footerContainer .upperContainer .footerRow2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footerContainer .upperContainer .footerRow1 ul, .footerContainer .upperContainer .footerRow1 div, .footerContainer .upperContainer .footerRow2 ul, .footerContainer .upperContainer .footerRow2 div {
+  width: 330.5px;
+  line-height: 40px;
+}
+.footerContainer .upperContainer .footerRow1 ul li, .footerContainer .upperContainer .footerRow1 div li, .footerContainer .upperContainer .footerRow2 ul li, .footerContainer .upperContainer .footerRow2 div li {
+  font-size: 17px;
+}
+.footerContainer .upperContainer .footerRow1 ul li a, .footerContainer .upperContainer .footerRow1 div li a, .footerContainer .upperContainer .footerRow2 ul li a, .footerContainer .upperContainer .footerRow2 div li a {
+  color: #57585b;
+  text-decoration: none;
+}
+.footerContainer .upperContainer .footerRow1 ul .subtitle, .footerContainer .upperContainer .footerRow1 div .subtitle, .footerContainer .upperContainer .footerRow2 ul .subtitle, .footerContainer .upperContainer .footerRow2 div .subtitle {
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+  letter-spacing: 0.075rem;
+}
+.footerContainer .upperContainer .footerRow1 .socialMedia, .footerContainer .upperContainer .footerRow2 .socialMedia {
+  display: flex;
+  justify-content: space-between;
+}
+.footerContainer .lowerContainer {
+  padding: 24px 25px;
+  width: 1318px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #57585b;
+  font-size: 14px;
+}
+.footerContainer .lowerContainer .button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footerContainer .lowerContainer .button .center {
+  margin: auto 10px;
+  font-size: 20px;
+}
+.footerContainer .line {
+  height: 0.1px;
+  width: 1360px;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=Footer.css.map */

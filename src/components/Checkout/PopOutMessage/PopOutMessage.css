@@ -1,0 +1,31 @@
+.popOutMessage .popOutMain {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 35%;
+  z-index: 5;
+  background-color: white;
+  width: 20rem;
+  padding: 3rem 1rem 2rem;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+.popOutMessage .popOutMain .popOutText {
+  margin-bottom: 1rem;
+}
+.popOutMessage .popOutMain .popOutBtn {
+  border: none;
+  background-color: #d31334;
+  cursor: pointer;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 0.25rem;
+}
+.popOutMessage .popOutMain .popOutBtn:hover {
+  background-color: #ad102b;
+}
+
+/*# sourceMappingURL=PopOutMessage.css.map */

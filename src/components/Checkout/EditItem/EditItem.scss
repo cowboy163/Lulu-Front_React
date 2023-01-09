@@ -1,0 +1,63 @@
+.myBag__editItem {
+
+  .editItemDetails {
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+    display: flex;
+
+    .closeBtn {
+      position: absolute;
+      right: 2rem;
+      top: 1rem;
+      font-size: 2rem;
+      cursor: pointer;
+    }
+
+    .carousel {
+      width: 548px;
+    }
+
+    .editItemInfo {
+      padding: 3rem;
+
+      .updateItem {
+        letter-spacing: .075rem;
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: 600;
+        box-sizing: border-box;
+        background-color: #d31334;
+        color: #fff;
+        border: .0625rem solid #d31334;
+        border-radius: .25rem;
+        cursor: pointer;
+        padding: 1rem;
+        width: 100%;
+
+        &:hover {
+          background-color: #b91330;
+        }
+      }
+
+      .viewProductDetails {
+        display: block;
+        text-align: center;
+        font-size: 1.0625rem;
+        text-decoration: underline;
+        text-decoration-color: #d5d5d5;
+        text-decoration-thickness: .0625rem;
+        text-underline-offset: .375rem;
+        padding: 1rem 0;
+        color: black;
+
+        &:hover {
+          text-decoration-color: #d31334;
+        }
+      }
+    }
+  }
+}

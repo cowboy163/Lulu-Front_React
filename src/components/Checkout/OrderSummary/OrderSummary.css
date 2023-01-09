@@ -1,0 +1,60 @@
+.checkout__orderSummary {
+  font-size: 1.0625rem;
+}
+.checkout__orderSummary .orderSummary__title {
+  font-size: 1.875rem;
+  line-height: 1.0666666667;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+.checkout__orderSummary .orderSummary__toggle {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  border-bottom: 0.0625rem solid #d5d5d5;
+  cursor: pointer;
+  font-size: 1.1875rem;
+}
+.checkout__orderSummary .orderSummary__toggle .itemCount .cartIcon {
+  vertical-align: text-bottom;
+  margin-right: 0.5rem;
+}
+.checkout__orderSummary .orderSummary__toggle .itemCount .toggleIcon {
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+.checkout__orderSummary .orderSummary__toggle .totalPrice {
+  font-weight: 500;
+}
+.checkout__orderSummary .bagItems {
+  border-bottom: 0.0625rem solid #d5d5d5;
+  overflow-y: scroll;
+  max-height: 400rem;
+}
+.checkout__orderSummary .subtotal {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.checkout__orderSummary .shipping {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+.checkout__orderSummary .tax {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  border-bottom: 0.0625rem solid #d5d5d5;
+}
+.checkout__orderSummary .orderTotal {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1875rem;
+  font-weight: 500;
+  line-height: 1.26;
+  padding: 1rem 0;
+}
+
+/*# sourceMappingURL=OrderSummary.css.map */

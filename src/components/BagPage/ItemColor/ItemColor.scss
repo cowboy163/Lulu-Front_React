@@ -1,0 +1,28 @@
+.itemColor {
+  box-sizing: border-box;
+
+  .itemColor__name {
+
+  }
+
+  .allColors {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      padding: 10px;
+      img {
+        border-radius: 50%;
+        width: 2rem;
+        cursor: pointer;
+        //box-shadow: 0 0 0 .09375rem #d5d5d5,0 0 0 .25rem #fff,0 0 0 .34375rem #000;
+        &:hover {
+          box-shadow: 0 0 0 .09375rem #d5d5d5,0 0 0 .25rem #fff,0 0 0 .34375rem gray;
+        }
+        &.active {
+          box-shadow: 0 0 0 .09375rem #d5d5d5,0 0 0 .25rem #fff,0 0 0 .34375rem #000;
+        }
+      }
+    }
+  }
+}
