@@ -1,0 +1,172 @@
+.final_checkout_page {
+  background-color: var(--dark-bg-color);
+  height: 100vh;
+  font-size: 1.1875rem;
+  .checkout__title {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 6rem;
+    font-weight: 600;
+    height: 6rem;
+  }
+  .main_content {
+    display: flex;
+    justify-content: space-between;
+    //background-color: skyblue;
+    .main_left_area {
+      .account {
+        background-color: white;
+        border-radius: 0.3rem;
+        padding: 2rem;
+        h1 {
+          font-size: 1.875rem;
+          line-height: 1.0666666667;
+        }
+        .account_info {
+          cursor: pointer;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          line-height: 1rem;
+          span {
+            font-weight: 600;
+            text-decoration: underline;
+          }
+          img {
+            margin-left: 10px;
+            transition: transform ease-in-out 0.3s;
+          }
+        }
+        .log_in_area {
+          .log_in_top {
+            display: flex;
+            .email_address {
+              //background-color: indianred;
+              input {
+                height: 3.25rem;
+                border-radius: .25rem;
+                box-sizing: border-box;
+                padding: .875rem 1rem;
+                width: 350px;
+                font-size: 1.5rem;
+                margin-bottom: 0.5rem;
+              }
+              .email_alert {
+                color: #d22030;
+                font-size: .9375rem;
+              }
+              .email_format_alert {
+                color: #d22030;
+                font-size: .9375rem;
+              }
+            }
+            .password {
+              margin-left: 30px;
+              //background-color: cadetblue;
+              img {
+                width: 1rem;
+                vertical-align: center;
+                margin-left: 10px;
+              }
+              input {
+                height: 3.25rem;
+                border-radius: .25rem;
+                box-sizing: border-box;
+                padding: .875rem 1rem;
+                width: 350px;
+                font-size: 1.5rem;
+                margin-bottom: 0.5rem;
+              }
+              .password_alert {
+                color: #d22030;
+                font-size: .9375rem;
+              }
+              .forgot_password {
+                text-decoration: underline;
+                text-decoration-color: #d5d5d5;
+                text-decoration-thickness: .0625rem;
+                text-underline-offset: .375rem;
+                cursor: pointer;
+                padding-bottom: .25rem;
+                font-size: 1.125rem;
+                &:hover {
+                  text-decoration-color: #d31334;
+                }
+              }
+            }
+          }
+          .log_in_bottom {
+            width: 95%;
+            .sign_in_button {
+              //background-color: #bfbfbf;
+              //border-color: #bfbfbf;
+              //cursor: not-allowed;
+              letter-spacing: .075rem;
+              font-size: 1rem;
+              font-weight: 600;
+              width: 100%;
+              border-radius: .25rem;
+              padding: 1rem;
+              margin-top: .9375rem;
+              color: white;
+              text-align: center;
+            }
+          }
+        }
+      }
+      .login_user_welcome {
+        background-color: white;
+        padding: 30px;
+        border-radius: 0.25rem;
+        .logoutBtn{
+          text-decoration: underline;
+          text-decoration-color: gray;
+          margin-top: 20px;
+          cursor: pointer;
+          &:hover {
+            text-decoration-color: red;
+          }
+        }
+      }
+      .go_to_next_step {
+        position: relative;
+        z-index: 1;
+        //background-color: orange;
+        width: 800px;
+        height: 100px;
+        .next_step_button {
+          position: absolute;
+          right: 0;
+          cursor: pointer;
+          background-color: #d11335;
+          text-align: center;
+          color: white;
+          font-weight: 600;
+          border-radius: 0.5rem;
+          padding: 16px 0;
+          width: 350px;
+          &:hover {
+            background-color: #b6112e;
+          }
+        }
+        .payment_method {
+          position: absolute;
+          right: 0;
+        }
+
+        .paymentFormArea {
+          position: absolute;
+          top: 2rem;
+          background-color: pink;
+        }
+      }
+
+    }
+    .main_right_area {
+      //background-color: yellow;
+      width: 35%;
+      padding: 30px;
+
+    }
+  }
+
+}

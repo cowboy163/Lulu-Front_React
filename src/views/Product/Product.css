@@ -1,0 +1,38 @@
+.single_product_page {
+  background-color: var(--dark-bg-color);
+  width: 100%;
+  margin-top: 90px;
+}
+.single_product_page .order_area {
+  display: flex;
+  width: 100%;
+}
+.single_product_page .order_area__carousel {
+  width: 50%;
+  height: 500px;
+  background-color: yellow;
+}
+.single_product_page .order_area__main {
+  width: 50%;
+}
+.single_product_page .product_intro .why_we_made_this {
+  width: 100%;
+  height: 600px;
+  background-color: #fafafa;
+}
+.single_product_page .product_intro__according {
+  width: 100%;
+  height: 600px;
+}
+.single_product_page .product_intro .you_may_also_like {
+  width: 100%;
+  height: 550px;
+  background-color: #fafafa;
+}
+.single_product_page .review_area {
+  width: 100%;
+  height: 1000px;
+  background-color: lightslategray;
+}
+
+/*# sourceMappingURL=Product.css.map */

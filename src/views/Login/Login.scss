@@ -1,0 +1,25 @@
+.login {
+  margin-top: 4.6rem;
+  //background-color: yellow;
+
+  .loginTitle {
+    text-align: center;
+    font-size: 3.5625rem;
+    line-height: 2;
+    font-weight: 600;
+    border-bottom: 1px solid #6e6e6e;
+  }
+
+  .loginMain {
+    display: flex;
+
+    .membershipIntro {
+      flex: 1;
+      padding: 3rem 0;
+    }
+
+    .signInAccount {
+      flex: 1;
+    }
+  }
+}

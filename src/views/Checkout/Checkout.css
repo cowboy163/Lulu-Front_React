@@ -1,0 +1,151 @@
+.final_checkout_page {
+  background-color: var(--dark-bg-color);
+  height: 100vh;
+  font-size: 1.1875rem;
+}
+.final_checkout_page .checkout__title {
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 6rem;
+  font-weight: 600;
+  height: 6rem;
+}
+.final_checkout_page .main_content {
+  display: flex;
+  justify-content: space-between;
+}
+.final_checkout_page .main_content .main_left_area .account {
+  background-color: white;
+  border-radius: 0.3rem;
+  padding: 2rem;
+}
+.final_checkout_page .main_content .main_left_area .account h1 {
+  font-size: 1.875rem;
+  line-height: 1.0666666667;
+}
+.final_checkout_page .main_content .main_left_area .account .account_info {
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1rem;
+}
+.final_checkout_page .main_content .main_left_area .account .account_info span {
+  font-weight: 600;
+  text-decoration: underline;
+}
+.final_checkout_page .main_content .main_left_area .account .account_info img {
+  margin-left: 10px;
+  transition: transform ease-in-out 0.3s;
+}
+.final_checkout_page .main_content .main_left_area .account .log_in_area .log_in_top {
+  display: flex;
+}
+.final_checkout_page .main_content .main_left_area .account .log_in_area .log_in_top .email_address input {
+  height: 3.25rem;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  padding: 0.875rem 1rem;
+  width: 350px;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.final_checkout_page .main_content .main_left_area .account .log_in_area .log_in_top .email_address .email_alert {
+  color: #d22030;
+  font-size: 0.9375rem;
+}
+.final_checkout_page .main_content .main_left_area .account .log_in_area .log_in_top .email_address .email_format_alert {
+  color: #d22030;
+  font-size: 0.9375rem;
+}
+.final_checkout_page .main_content .main_left_area .account .log_in_area .log_in_top .password {
+  margin-left: 30px;
+}
+.final_checkout_page .main_content .main_left_area .account .log_in_area .log_in_top .password img {
+  width: 1rem;
+  vertical-align: center;
+  margin-left: 10px;
+}
+.final_checkout_page .main_content .main_left_area .account .log_in_area .log_in_top .password input {
+  height: 3.25rem;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  padding: 0.875rem 1rem;
+  width: 350px;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.final_checkout_page .main_content .main_left_area .account .log_in_area .log_in_top .password .password_alert {
+  color: #d22030;
+  font-size: 0.9375rem;
+}
+.final_checkout_page .main_content .main_left_area .account .log_in_area .log_in_top .password .forgot_password {
+  text-decoration: underline;
+  text-decoration-color: #d5d5d5;
+  text-decoration-thickness: 0.0625rem;
+  text-underline-offset: 0.375rem;
+  cursor: pointer;
+  padding-bottom: 0.25rem;
+  font-size: 1.125rem;
+}
+.final_checkout_page .main_content .main_left_area .account .log_in_area .log_in_top .password .forgot_password:hover {
+  text-decoration-color: #d31334;
+}
+.final_checkout_page .main_content .main_left_area .account .log_in_area .log_in_bottom {
+  width: 95%;
+}
+.final_checkout_page .main_content .main_left_area .account .log_in_area .log_in_bottom .sign_in_button {
+  letter-spacing: 0.075rem;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 100%;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  margin-top: 0.9375rem;
+  color: white;
+  text-align: center;
+}
+.final_checkout_page .main_content .main_left_area .login_user_welcome {
+  background-color: white;
+  padding: 30px;
+  border-radius: 0.25rem;
+}
+.final_checkout_page .main_content .main_left_area .login_user_welcome .logoutBtn {
+  text-decoration: underline;
+  text-decoration-color: gray;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.final_checkout_page .main_content .main_left_area .login_user_welcome .logoutBtn:hover {
+  text-decoration-color: red;
+}
+.final_checkout_page .main_content .main_left_area .go_to_next_step {
+  position: relative;
+  z-index: 1;
+  width: 800px;
+  height: 100px;
+}
+.final_checkout_page .main_content .main_left_area .go_to_next_step .next_step_button {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  background-color: #d11335;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  padding: 16px 0;
+  width: 350px;
+}
+.final_checkout_page .main_content .main_left_area .go_to_next_step .next_step_button:hover {
+  background-color: #b6112e;
+}
+.final_checkout_page .main_content .main_left_area .go_to_next_step .payment_method {
+  position: absolute;
+  right: 0;
+}
+.final_checkout_page .main_content .main_right_area {
+  width: 35%;
+  padding: 30px;
+}
+
+/*# sourceMappingURL=Checkout.css.map */

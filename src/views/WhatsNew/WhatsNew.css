@@ -1,0 +1,23 @@
+.whatsnewContainer {
+  display: flex;
+  background: var(--dark-bg-color);
+  padding-top: 80px;
+  font-family: var(--font-family);
+}
+.whatsnewContainer .middleBody {
+  display: flex;
+}
+.whatsnewContainer .middleBody .sideBar {
+  background-color: var(--light-bg-color);
+}
+.whatsnewContainer .middleBody .sideBar h1 {
+  line-height: 100px;
+  font-weight: 600;
+  padding-left: 35px;
+  margin-bottom: -10px;
+}
+.whatsnewContainer .middleBody .productList {
+  width: 100%;
+}
+
+/*# sourceMappingURL=WhatsNew.css.map */

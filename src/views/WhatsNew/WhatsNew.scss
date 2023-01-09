@@ -1,0 +1,27 @@
+.whatsnewContainer{
+  display: flex;
+  background: var(--dark-bg-color);
+  //background: green;
+  padding-top: 80px;
+  font-family: var(--font-family);
+
+  .middleBody {
+    display: flex;
+    .sideBar {
+      background-color: var(--light-bg-color);
+      h1 {
+        line-height: 100px;
+        font-weight: 600;
+        padding-left: 35px;
+        margin-bottom: -10px;
+        //background-color: red;
+
+      }
+    }
+    .productList {
+      width: 100%;
+
+    }
+  }
+
+}

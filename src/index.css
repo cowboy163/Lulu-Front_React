@@ -1,0 +1,68 @@
+:root{
+  /*color variables*/
+  --light-bg-color: white;
+  --dark-bg-color: #f8f8f9;
+  --dark-font-color: black;
+  --light-font-color: #57585b;
+  /*font variables*/
+  --font-family: Calibre,sans-serif
+}
+@font-face {
+  font-family: 'Calibre';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../public/fonts/Calibreweb-Semibold.woff2') format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Calibre';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../public/fonts/Calibreweb-Medium.woff2') format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Calibre';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../public/fonts/Calibreweb-Regular.woff2') format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Calibre';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../public/fonts/Calibreweb-Light.woff2') format('woff2');
+  font-display: swap;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  /*delete after work*/
+  /*border: 1px solid red;*/
+}
+/*delete after work*/
+html,
+body,
+#root,
+.mask
+ {
+  height: 100%;
+}
+
+
